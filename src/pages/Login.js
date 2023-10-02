@@ -122,7 +122,7 @@ const Login = () => {
           </MDBValidation>
           <br />
 
-          <GoogleLogin
+          {/* <GoogleLogin
             onSuccess={googleSuccess}
             onError={googleFailure}
             //cookiePolicy="single_host_origin"
@@ -136,7 +136,7 @@ const Login = () => {
             //     <MDBIcon className="me-2" fab icon="google" /> Google Sign In
             //   </MDBBtn>
             // )}
-          />
+          /> */}
         </MDBCardBody>
         <MDBCardFooter>
           <Link to="/register">
