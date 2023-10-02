@@ -25,7 +25,12 @@ export const googleSignIn = (result) => API.post('/users/googleSignIn', result);
 export const createTour = (tourData) => API.post('/tour', tourData);
 
 export const getTours = (page) => {
-  console.log(process.env.NODE_EVV, 'kakar', baseURL, `/tour?page=${page}`);
+  console.log(
+    process.env.NODE_EVV,
+    'kakar&Shahar',
+    baseURL,
+    `/tour?page=${page}`
+  );
   return API.get(`/tour?page=${page}`);
 };
 
