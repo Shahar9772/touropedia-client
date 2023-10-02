@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const isDev = process.env.NODE_EVV !== 'production';
+const isDev = process.env.NODE_ENV !== 'production';
 
 const { REACT_APP_DEV_API, REACT_APP_PROD_API } = process.env;
 
