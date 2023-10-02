@@ -9,7 +9,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 
-const isDev = process.env.NODE_EVV !== 'production';
+const isDev = process.env.NODE_ENV !== 'production';
 
 const clientId = isDev
   ? '195692587939-2dtegssspd48c4i39fk4t3mtgr0b5mfv.apps.googleusercontent.com'
