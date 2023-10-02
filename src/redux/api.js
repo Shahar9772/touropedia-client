@@ -4,9 +4,7 @@ const isDev = process.env.NODE_EVV !== 'production';
 
 const { REACT_APP_DEV_API, REACT_APP_PROD_API } = process.env;
 
-//const baseURL = isDev ? REACT_APP_DEV_API : REACT_APP_PROD_API;
-
-const baseURL = REACT_APP_PROD_API;
+const baseURL = isDev ? REACT_APP_DEV_API : REACT_APP_PROD_API;
 
 const API = axios.create({ baseURL });
 
